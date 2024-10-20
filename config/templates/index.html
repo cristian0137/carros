@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Agregar carro</title>
+</head>
+<body>
+
+    <h1>INGRESA LOS DATOS </h1>
+
+    <form id="libro-form">
+
+        <label for="modelo">modelo:</label>
+        <input type="text" id="modelo" name="modelo" placeholder="Ingrese el modelo">
+        <br><br>
+        <label for="color">color:</label>
+        <input type="text" id="color" name="color" placeholder="Ingrese el color" >
+        <br><br>
+        <label for="puertas">puertas:</label>
+        <input type="number" id="puertas" name="puertas" placeholder="Cantidad de puertas">
+        <br><br>
+        <button type="submit">Agregar carro</button>
+    </form>
+    <p id="mensaje"></p>
+    <script src="{{url_for('static',filename='/js/static.js')}}"></script>
+    
+</body>
+</html>
